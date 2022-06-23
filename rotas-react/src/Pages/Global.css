@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.conteudo-opcoes{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.conteudo-opcoes a {
+  padding: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.opcao-front-end{
+  background-color: #61dafb;
+  color: blue;
+}
+
+.opcao-back-end{
+  background-color: #43853d;
+  color: #fff
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
